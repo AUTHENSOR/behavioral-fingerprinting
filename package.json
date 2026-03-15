@@ -1,0 +1,44 @@
+{
+  "name": "behavioral-fingerprinting",
+  "version": "0.1.0",
+  "description": "Behavioral fingerprinting for AI agents. Build profiles, detect drift, identify compromise.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "behavioral-fingerprint": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "node --test dist/**/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "ai-safety",
+    "agent",
+    "behavioral-analysis",
+    "fingerprinting",
+    "drift-detection",
+    "anomaly-detection",
+    "authensor"
+  ],
+  "author": "15 Research Lab",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AUTHENSOR/behavioral-fingerprinting.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^5.9.3"
+  }
+}
