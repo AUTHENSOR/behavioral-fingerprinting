@@ -126,11 +126,17 @@ Both methods are O(1) per update and store minimal state.
 | `drift` | 0.3 - 0.6 | Statistically significant behavioral change |
 | `compromised` | > 0.6 | Major behavioral deviation, possible compromise |
 
-## Related Projects
+## Part of the Authensor Ecosystem
 
-- **[Authensor Sentinel](https://github.com/AUTHENSOR/authensor)** — Production monitoring engine (where the EWMA/CUSUM patterns originate)
-- **[Agent Forensics](https://github.com/AUTHENSOR/agent-forensics)** — Post-incident analysis and decision tree reconstruction
-- **Chainbreaker** — Generates attack scenarios that cause behavioral drift
+This project is part of the [Authensor](https://github.com/AUTHENSOR/AUTHENSOR) open-source AI safety ecosystem, built by [15 Research Lab](https://github.com/AUTHENSOR).
+
+| Project | Description |
+|---------|-------------|
+| [Authensor](https://github.com/AUTHENSOR/AUTHENSOR) | The open-source safety stack for AI agents |
+| [Prompt Injection Benchmark](https://github.com/AUTHENSOR/prompt-injection-benchmark) | Standardized benchmark for safety scanners |
+| [AI SecLists](https://github.com/AUTHENSOR/ai-seclists) | Security wordlists and payloads for AI/LLM testing |
+| [ATT&CK ↔ Alignment Rosetta](https://github.com/AUTHENSOR/attack-alignment-rosetta) | Maps MITRE ATT&CK to AI alignment concepts |
+| [Agent Forensics](https://github.com/AUTHENSOR/agent-forensics) | Post-incident analysis for receipt chains |
 
 ## Design
 
