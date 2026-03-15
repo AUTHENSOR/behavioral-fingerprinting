@@ -6,7 +6,7 @@ From [15 Research Lab](https://github.com/AUTHENSOR)
 
 ---
 
-Behavioral Fingerprinting builds statistical profiles of AI agent behavior and detects when an agent's behavior drifts from its baseline. Uses EWMA (spike detection) and CUSUM (gradual drift detection) — the same statistical methods used in [Authensor Sentinel](https://github.com/AUTHENSOR/authensor), extracted into a standalone research library.
+Behavioral Fingerprinting builds statistical profiles of AI agent behavior and detects when an agent's behavior drifts from its baseline. Uses EWMA (spike detection) and CUSUM (gradual drift detection) -- the same statistical methods used in [Authensor Sentinel](https://github.com/AUTHENSOR/authensor), extracted into a standalone research library.
 
 ## Install
 
@@ -140,11 +140,11 @@ This project is part of the [Authensor](https://github.com/AUTHENSOR/AUTHENSOR) 
 
 ## Design
 
-- **Zero runtime dependencies** — only Node.js built-ins
+- **Zero runtime dependencies** -- only Node.js built-ins
 - **TypeScript, ESM, strict mode**
-- **O(1) per observation** — EWMA and CUSUM are constant-time
-- **Composable** — use fingerprint building, comparison, and detection independently
-- **Compatible with Authensor** — reads receipt format directly
+- **O(1) per observation** -- EWMA and CUSUM are constant-time
+- **Composable** -- use fingerprint building, comparison, and detection independently
+- **Compatible with Authensor** -- reads receipt format directly
 
 ## License
 

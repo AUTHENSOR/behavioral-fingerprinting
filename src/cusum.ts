@@ -1,5 +1,5 @@
 /**
- * CUSUM — Cumulative Sum control chart
+ * CUSUM -- Cumulative Sum control chart
  *
  * Standalone implementation for behavioral fingerprinting.
  * Detects gradual drift that EWMA adapts to and misses.

@@ -1,5 +1,5 @@
 /**
- * Visualizer — ASCII charts for terminal output showing fingerprint comparisons.
+ * Visualizer -- ASCII charts for terminal output showing fingerprint comparisons.
  *
  * Provides:
  * - Side-by-side fingerprint summaries

@@ -1,5 +1,5 @@
 /**
- * Fingerprint — Builds a behavioral fingerprint from a stream of agent actions.
+ * Fingerprint -- Builds a behavioral fingerprint from a stream of agent actions.
  *
  * A fingerprint captures the statistical signature of how an agent behaves:
  * what actions it takes, how often, at what times, and how its requests

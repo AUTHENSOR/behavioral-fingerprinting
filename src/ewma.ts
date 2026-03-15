@@ -1,5 +1,5 @@
 /**
- * EWMA — Exponentially Weighted Moving Average
+ * EWMA -- Exponentially Weighted Moving Average
  *
  * Standalone implementation for behavioral fingerprinting.
  * Tracks a running mean and variance for a metric.

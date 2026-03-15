@@ -1,5 +1,5 @@
 /**
- * Behavioral Fingerprinting — Type definitions
+ * Behavioral Fingerprinting -- Type definitions
  */
 
 /** An observed agent action (compatible with Authensor receipt format). */

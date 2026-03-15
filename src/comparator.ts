@@ -1,5 +1,5 @@
 /**
- * Comparator — Compares two behavioral fingerprints and returns a similarity score.
+ * Comparator -- Compares two behavioral fingerprints and returns a similarity score.
  *
  * Uses cosine similarity across multiple behavioral dimensions.
  * Identifies specific deviations as anomalies.

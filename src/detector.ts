@@ -1,5 +1,5 @@
 /**
- * Detector — Real-time behavioral drift detection.
+ * Detector -- Real-time behavioral drift detection.
  *
  * Uses EWMA for spike detection and CUSUM for gradual drift detection.
  * Compares incoming actions against a baseline fingerprint in real time.
