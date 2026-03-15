@@ -2,7 +2,7 @@
 
 **Every agent has a behavioral signature. Detect when it changes.**
 
-From [15 Research Lab](https://github.com/AUTHENSOR)
+From [15 Research Lab](https://github.com/15researchlab)
 
 ---
 
@@ -128,7 +128,7 @@ Both methods are O(1) per update and store minimal state.
 
 ## Part of the Authensor Ecosystem
 
-This project is part of the [Authensor](https://github.com/AUTHENSOR/AUTHENSOR) open-source AI safety ecosystem, built by [15 Research Lab](https://github.com/AUTHENSOR).
+This project is part of the [Authensor](https://github.com/AUTHENSOR/AUTHENSOR) open-source AI safety ecosystem, built by [15 Research Lab](https://github.com/15researchlab).
 
 | Project | Description |
 |---------|-------------|
